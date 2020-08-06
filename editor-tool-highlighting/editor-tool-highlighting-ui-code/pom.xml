@@ -44,6 +44,20 @@
       <version>5.56.0</version>
       <scope>runtime</scope>
     </dependency>
+    <!-- TODO: integrate the webjar in the code instead of the direct link to a CDN -->
+    <!-- TODO: also integrate csslint-->
+    <dependency>
+      <groupId>org.webjars</groupId>
+      <artifactId>jshint</artifactId>
+      <version>2.6.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars</groupId>
+      <artifactId>csslint</artifactId>
+      <version>0.9.10</version><!-- only tested with 1.0.5 for now. -->
+      <scope>runtime</scope>
+    </dependency>
     <dependency>
       <groupId>org.xwiki.platform</groupId>
       <artifactId>xwiki-platform-rendering-macro-velocity</artifactId>
